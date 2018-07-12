@@ -5,6 +5,6 @@ var cors = require("cors");
 app.use(cors());
 app.use(
   "/",
-  proxy({ target: "http://10.200.37.197:8080", changeOrigin: true })
+  proxy({ target: "http://www.baidu.com", changeOrigin: true })
 );
 app.listen(3011);
